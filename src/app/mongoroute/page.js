@@ -1,6 +1,6 @@
 import React from "react";
-import { MongoClient } from "mongodb";
-import clientPromise from "@/lib/mongobd";
+// import { MongoClient } from "mongodb";
+// import clientPromise from "@/lib/mongobd";
 const page = async () => {
   //   const client = await clientPromise;
   //   const db = client.db();

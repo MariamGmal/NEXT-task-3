@@ -9,11 +9,11 @@ const page = async ({ params }) => {
   // const post = await postJson.json();
 
   const { id } = params;
-  const newsJson = await fetch(`http://localhost:3000/api/onePost?id=${id}`);
-  let post = await newsJson.json();
-  post = post[0];
-  const nextPost = parseInt(id) + 1;
-  const prevPost = parseInt(id) - 1;
+  // const newsJson = await fetch(`http://localhost:3000/api/onePost?id=${id}`);
+  // let post = await newsJson.json();
+  // post = post[0];
+  // const nextPost = parseInt(id) + 1;
+  // const prevPost = parseInt(id) - 1;
 
   return (
     <div className="divdetails">
@@ -21,10 +21,10 @@ const page = async ({ params }) => {
         <div className="col mx-auto mt-5 ">
           <div className="card h-100 colcont">
             <div className="card-body">
-              <h5 className="card-title">{post.title}</h5>
-              <p className="card-text">{post.body}</p>
+              {/* <h5 className="card-title">{post.title}</h5>
+              <p className="card-text">{post.body}</p> */}
             </div>
-            <Link
+            {/* <Link
               className="text-dark mb-2 text-center w-75 mx-auto lin"
               href={`/post/${prevPost}`}>
               Previous Post
@@ -33,7 +33,7 @@ const page = async ({ params }) => {
               className=" mb-2 text-dark text-center  w-75 mx-auto lin"
               href={`/post/${nextPost}`}>
               Next Post
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
