@@ -20,8 +20,8 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse contain" id="navbarNav">
-          {menuItems.map((item) => (
-            <NavLink href={item.href} lable={item.lable} />
+          {menuItems.map((item, i) => (
+            <NavLink key={i} href={item.href} lable={item.lable} />
           ))}
 
           {/* <li className="nav-item">
