@@ -1,0 +1,39 @@
+
+body{
+    background-color: rgb(104, 95, 108);
+}
+.cont{
+    width: 100%;
+    height: 800px;
+}
+
+.form{
+    width: 800px;
+    margin-top: 90px;
+    padding: 30px;
+    background-color:  rgb(44, 84, 105);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.Body{
+    font-weight: bold;
+    
+}
+
+.btnnnn{
+    padding: 20px;
+    background-color: rgb(115, 143, 159);
+    color: black;
+    font-weight: bold;
+}
+.btnnnn:hover{
+    background-color: rgb(85, 176, 107);
+}
