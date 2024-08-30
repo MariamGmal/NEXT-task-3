@@ -8,11 +8,11 @@ const addpost = () => {
     const title = formData.get("title");
     const body = formData.get("body");
 
-    const client = await clientPromise;
-    const db = client.db();
-    const res = await db.collection("posts").insertOne({ title, body });
-    console.log(title, body);
-    console.log(res);
+    // const client = await clientPromise;
+    // const db = client.db();
+    // const res = await db.collection("posts").insertOne({ title, body });
+    // console.log(title, body);
+    // console.log(res);
   };
 
   return (
